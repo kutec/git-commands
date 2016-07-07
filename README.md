@@ -1,6 +1,12 @@
 #Git Commands
 ---
 ## Deleting a branch
+
+**Local branch**
+```
+git branch <branchName> -d
+```
+**Remote branch**
 ```
 git push origin --delete <branchName>
 ```
